@@ -75,6 +75,11 @@ p {
 	margin-top: .6em;
 	font: 1em/1.2em Georgia, Times, serif;
 }
+div.highlight {
+	margin: 1em 0;
+	padding: .5em;
+	background: #eee;
+}
 ul {
 	margin: 1em 0 1em 1em;
 }
