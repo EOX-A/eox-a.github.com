@@ -4,6 +4,7 @@ url: http://localhost:4000
 permalink: /:year/:month/:title.html
 paginate: 100
 lsi: true
+markdown: redcarpet
 
 source: .
 destination: ./_site
