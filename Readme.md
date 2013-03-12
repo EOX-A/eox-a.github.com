@@ -1,8 +1,3 @@
----
-layout: default
-title: Readme
----
-
 # EOX :: Mini Sites
 
 ## Installation
