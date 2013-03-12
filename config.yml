@@ -1,0 +1,11 @@
+auto: true
+baseurl: /
+url: http://localhost:4000
+permalink: /:year/:month/:title.html
+paginate: 100
+lsi: true
+
+source: .
+destination: ./_site
+plugins: ./_plugins
+exclude: [ 'README.md', 'Gemfile.lock', 'Gemfile', 'Capfile', 'config' ]
