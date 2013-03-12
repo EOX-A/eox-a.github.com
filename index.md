@@ -1,10 +1,14 @@
 ---
 layout: default
-title: eox-a.github.com 
+title: EOX IT Services GmbH
 ---
 
-# EOX @ github
+# EOX IT Services GmbH
 
-Welcome to the EOX company on github. For an overview of our current projects see [github.com/eox-a](http://github.com/eox-a/).
+## About us 
+EOX IT Services GmbH is a young, innovative company, combining interdisciplinary skills with specialized know-how for providing spatial observation information technology solutions. The main area of EOX activities concerns the development and advancement of e-Environment and geo-spatial information infrastructures with special emphasis placed on satellite Earth Observation systems and next generation applications.
 
-In the (near) future we will update this page with more information!
+Please alse see our homepage at [eox.at](http://eox.at).
+
+## On Github
+For an overview of our current projects see [github.com/eox-a](http://github.com/eox-a/).
