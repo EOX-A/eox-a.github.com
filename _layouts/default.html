@@ -1,21 +1,25 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
-	"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">	
-	<head>
-		<title>{{ page.title }} | EOX IT Services GmbH</title>
-		<style type="text/css" media="screen">
-		/* <![CDATA[ */
-			@import url("/css/eox.css");
-			@import url("/css/pygments.css");
-		/* ]]> */
-		</style>
-	</head>
-	
-	<body id="irc-eox-at">
-		<div id="sidebar"><img src="/img/eox.png" alt="" title="EOX IT Services GmbH" /></div>
-		<div id="main">
-			{{ content }}
-		</div>
-	</body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% if page.title == 'EOX IT Services GmbH' %}
+  <title>{{ page.title }}</title> 
+  {% else %}
+  <title>{{ page.title | append:' :: EOX IT Services GmbH' }}</title> 
+  {% endif %}
+  <style type="text/css" media="screen">
+  /* <![CDATA[ */
+    @import url("/css/eox.css");
+    @import url("/css/pygments.css");
+  /* ]]> */
+  </style>
+</head>
+  
+<body id="eox-a-github-com">
+  <div id="sidebar"><img src="/img/eox.png" alt="" title="EOX IT Services GmbH" /></div>
+  <div id="main">
+    
+{{ content }}
+
+  </div>
+</body>
 </html>
