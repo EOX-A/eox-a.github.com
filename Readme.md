@@ -1,3 +1,8 @@
+---
+layout: default
+title: Readme
+---
+
 # EOX :: Mini Sites
 
 ## Installation
@@ -17,6 +22,24 @@ jekyll --server
 ```
 
 Start coding!
+
+## Creating sites
+
+To create a new page, simply create a new file called *name.md*. This page will be rendered as *name.html*.
+
+Another important part of the new page is the [YAML Front Matter](https://github.com/mojombo/jekyll/wiki/YAML-Front-Matter) block. It defines which layout is going to be used and any other variables you might need.
+
+```
+---
+layout: default
+title: Readme
+---
+
+# Heading 1
+
+And a small paragraph of text!
+
+```
 
 ## Deploying
 
