@@ -5,6 +5,7 @@ permalink: /:year/:month/:title.html
 paginate: 100
 lsi: true
 markdown: redcarpet
+pygments: true
 
 source: .
 destination: ./_site
