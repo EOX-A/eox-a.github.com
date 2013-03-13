@@ -5,9 +5,11 @@ permalink: /:year/:month/:title.html
 paginate: 100
 lsi: true
 markdown: redcarpet
+redcarpet:
+  extensions: [ smart, fenced_code_blocks ]
 pygments: true
 
 source: .
 destination: ./_site
 plugins: ./_plugins
-exclude: [ 'README.md', 'Gemfile.lock', 'Gemfile', 'Capfile', 'config' ]
+exclude: [ 'Gemfile.lock', 'Gemfile', 'Capfile', 'config' ]

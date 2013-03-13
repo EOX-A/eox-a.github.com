@@ -75,11 +75,6 @@ p {
 	margin-top: .6em;
 	font: 1em/1.2em Georgia, Times, serif;
 }
-div.highlight {
-	margin: 1em 0;
-	padding: .5em;
-	background: #eee;
-}
 ul {
 	margin: 1em 0 1em 1em;
 }
@@ -106,4 +101,51 @@ dd {
 }
 :link img, :visited img {
 	border: 0;
+}
+
+/* Code Blocks */
+code, pre {
+	font-family: Consolas, Menlo, "Courier New", monospace;
+	font-size: 12px;
+}
+
+pre {
+	margin: 1em 0;
+	background-color: #fafafa;
+	border: 1px solid #d5d5d5;
+	font-family: Consolas, Menlo, "Courier New", monospace;
+	font-size: 12px;
+	line-height: 20px;
+	overflow-x: auto;
+	padding: 11px 15px 12px;
+}
+
+pre::-webkit-scrollbar {
+	height: 25px;
+}
+
+pre::-webkit-scrollbar-button:start,
+pre::-webkit-scrollbar-button:end {
+	display: none;
+}
+
+pre::-webkit-scrollbar-track-piece  {
+	background-color: #eee;
+}
+
+pre::-webkit-scrollbar-thumb {
+	background-color: #bbb;
+	border: 7px solid #eee;
+	-webkit-background-clip: padding-box;
+	-webkit-border-radius: 12px;
+}
+
+p code,
+li code {
+	border: 1px solid #ccc;
+	background-color: #fafafa;
+	font-size: 12px;
+	line-height: 20px;
+	padding: 1px 5px;
+	white-space: nowrap;
 }
