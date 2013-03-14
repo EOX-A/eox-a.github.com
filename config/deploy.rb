@@ -24,7 +24,7 @@ namespace :deploy do
 
   desc 'Run jekyll to update site before uploading'
   task :update_jekyll do
-    %(rm -rf _site/*)
-    %(&& jekyll)
+    system 'rm -rf _site/*'
+    system 'jekyll --no-auto'
   end
 end
