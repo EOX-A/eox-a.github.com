@@ -1,14 +1,12 @@
-auto: true
 baseurl: /
 url: http://localhost:4000
 permalink: /:year/:month/:title.html
 markdown: redcarpet
-paginate: 100
 lsi: true
 markdown: redcarpet
 redcarpet:
   extensions: [ smart, fenced_code_blocks ]
-pygments: true
+highlighter: rouge
 
 source: .
 destination: ./_site
