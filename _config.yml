@@ -12,5 +12,5 @@ pygments: true
 
 source: .
 destination: ./_site
-plugins: ./_plugins
+plugins_dir: ./_plugins
 exclude: [ 'Readme.md', 'Gemfile.lock', 'Gemfile', 'Capfile', 'config' ]
