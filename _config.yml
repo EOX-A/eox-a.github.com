@@ -3,7 +3,6 @@ url: http://localhost:4000
 permalink: /:year/:month/:title.html
 markdown: redcarpet
 lsi: true
-markdown: redcarpet
 redcarpet:
   extensions: [ smart, fenced_code_blocks ]
 highlighter: rouge
